@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #202124;
+  color: #000000;
 }
 
 h1,
@@ -12,6 +12,7 @@ h3,
 input,
 button {
   font-family: 'Press Start 2P', system-ui;
+  color: #ffffff;
 }
 
 #root {
@@ -19,7 +20,7 @@ button {
   display: flex;
   flex-direction: column;
   padding: 14px;
-  background: #eff6ff;
+  background: #232323;
   gap: 14px;
 }
 
@@ -48,6 +49,7 @@ header button {
   background: transparent;
   transition-duration: 200ms;
   cursor: pointer;
+  color:aquamarine
 }
 
 header button:hover {
@@ -59,7 +61,7 @@ header input {
   padding: 14px 18px;
   border: none;
   outline: none;
-  background: white;
+  background: rgb(0, 0, 0);
 }
 
 p {
@@ -78,11 +80,12 @@ p {
   gap: 14px;
   padding: 14px;
   border-radius: 14px;
-  background: white;
+  background: rgb(255, 255, 255);
 }
 
 .todoItem p {
   flex: 1;
+  color: rgb(0, 0, 0);
 }
 
 .actionsContainer {
